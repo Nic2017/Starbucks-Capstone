@@ -10,7 +10,7 @@ For this project, given the Starbucks offer, customer profile, customer transact
 2. Build a model that predicts whether or not someone will respond to an offer.
 
 # File Description
-There are 1 jupyter notebook file for the main analysis and 3 json files as the input data(Starbucks offer, customer profile, customer transaction data, respectively); For convenience, I also saved and uploaded the csv files(in all_csv.zip) generated during the running of the notebook:
+There are 1 jupyter notebook file for the main analysis and 3 json files(in all_json.zip) as the input data(Starbucks offer, customer profile, customer transaction data, respectively); For convenience, I also saved and uploaded the csv files(in all_csv.zip) generated during the running of the notebook:
 - **transcript_new_2.csv**: the transcript with offer id column name consolidated ((dup)rows are persons, columns are event, time, offer id, amount, reward)
 - **person_and_offer.csv**: transcript_new joins portfolio((dup) adding offer info to transcript_new)
 - **person_offer_demographic.csv**: person_and_offer joins parts of profile((dup) adding personal info to person_and_offer)
