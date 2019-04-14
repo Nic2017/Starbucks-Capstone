@@ -10,7 +10,7 @@ For this project, given the Starbucks offer, customer profile, customer transact
 2. Build a model that predicts whether or not someone will respond to an offer.
 
 # File Description
-There are 1 jupyter notebook file for the main analysis and 3 csv files as the input data(Starbucks offer, customer profile, customer transaction data, respectively).
+There are 1 jupyter notebook file for the main analysis and 3 json files as the input data(Starbucks offer, customer profile, customer transaction data, respectively).
 
 # Results
 For discussion 1, I have published a blog on <a href="https://medium.com/@harrygky/what-factors-may-affect-airbnbs-price-4bc4bedf5563">Medium</a>.
