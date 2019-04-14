@@ -10,7 +10,15 @@ For this project, given the Starbucks offer, customer profile, customer transact
 2. Build a model that predicts whether or not someone will respond to an offer.
 
 # File Description
-There are 1 jupyter notebook file for the main analysis and 3 json files as the input data(Starbucks offer, customer profile, customer transaction data, respectively).
+There are 1 jupyter notebook file for the main analysis and 3 json files as the input data(Starbucks offer, customer profile, customer transaction data, respectively); For convenience, I also saved and uploaded the csv files generated during the running of the notebook:
+- **transcript_new_2.csv**: the transcript with offer id column name consolidated ((dup)rows are persons, columns are event, time, offer id, amount, reward)
+- **person_and_offer.csv**: transcript_new joins portfolio((dup) adding offer info to transcript_new)
+- **person_offer_demographic.csv**: person_and_offer joins parts of profile((dup) adding personal info to person_and_offer)
+- **person_all_information.csv**: (nodup)rows are persons, columns are all information including offer, customer info and transaction.
+- **offer.csv**: (nodup)rows are persons, columns are counts of offers received, completed, viewed&completed, noviewed&completed, received bogo,received discount, received informational, v&c_bogo, v&c_discount, v&c_discount, v&c_informational, etc.
+- **offer_record.csv**: (dup)rows are persons, columns are v&c offer id and time.
+- **offer_norec_comp.csv**: (nodup)rows are persons, columns are counts of offers completed, completed bogo, completed discount, completed informational, received&completed, noreceived&completed, nr&c_bogo, nr&c_discount, nr&c_informational, etc.
+- **transaction_gen.csv**: (nodup)rows are persons, columns are total amount of transactions(including those not completed), amount of transactions related to viewed&completed offers, amount of transactions related to noviewed&completed offers, etc. 
 
 # Results
 For discussion 1, I have published a blog on <a href="https://medium.com/@harrygky/what-factors-may-affect-airbnbs-price-4bc4bedf5563">Medium</a>.
