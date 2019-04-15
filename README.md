@@ -21,7 +21,7 @@ There are 1 jupyter notebook file for the main analysis and 3 json files(in all_
 - **transaction_gen.csv**: (nodup)rows are persons, columns are total amount of transactions(including those not completed), amount of transactions related to viewed&completed offers, amount of transactions related to noviewed&completed offers, etc. 
 
 # Results
-For discussion 1, I have published a blog on <a href="https://medium.com/@harrygky/what-factors-may-affect-airbnbs-price-4bc4bedf5563">Medium</a>.
+For discussion 1, I have published a blog on <a href="https://medium.com/@harrygky/who-might-respond-to-starbucks-offer-f275d939bf6f">Medium</a>.
 
 # Licensing, Authors, Acknowledgements
 You can the Licensing for the data and other descriptive information is available at Udacity Data Science Nanodegree project. Otherwise, feel free to use the code here as you wish.
